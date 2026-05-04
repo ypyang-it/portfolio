@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Playwrite+IN+Guides&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+	text-align: center;
+	background-color: #3a2b43;
+}
+
+/* Website Links except the nav */
+a:link{
+	color: #2E94E6;
+}
+
+a:visited{
+	color: #620EAB;
+}
+
+a:hover{
+	color: #b300b3;
+}
+
+a:active{
+	color: #102CC9;
+}
+
+nav{
+  text-align: center;
+  background-color: beige;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0;
+}
+
+nav li{
+  display: inline;
+  padding: 10px;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+nav a:link{
+	color: #2E94E6;
+}
+
+nav a:visited{
+	color: #620EAB;
+}
+
+nav a:hover{
+	color: #b300b3;
+}
+
+nav a:active{
+	color: #102CC9;
+}
+
+main{
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px 40px;
+}
+
+/* This styles the hero image with soft rounded corners and glow */
+.hero-image{
+    border-radius: 18px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+body{
+	font-family: "Roboto Condensed", sans-serif;
+	color: #155115;
+	margin: 0;
+}
+
+h1{
+	font-family: "Jura", sans-serif;
+	color: white;
+}
+
+.gallery .preview{
+  width: 100%;
+  height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+  width: 100px;
+  height: 75px;
+  margin: 3px 10px 10px 0;
+  margin-top: 20px;
+}
+
+.gallery .gallery-thumbnails img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.gallery .preview img#preview{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto !important;
+    border: none;
+    padding: 0;
+    border-radius: 0px 81px 21px 70px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.45);
+}
+
+.main-photo{
+  float: left;
+  width: 350px;
+  max-width: 45%;
+  height: auto;
+  margin: 10px 25px 15px 0;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+footer{
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #3a2b43;
+  color: white;
+  padding: 25px 20px 0 20px;
+  margin-top: 30px;
+  text-align: left;
+  border-top: 12px solid black;
+}
+
+footer .container-fluid{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer .row{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+footer h5{
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+footer p{
+  margin-bottom: 8px;
+  color: #f1f1f1;
+  line-height: 1.4;
+}
+
+footer .fa{
+  font-size: 1em;
+  margin-right: 6px;
+}
+
+footer .text-center{
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+/* This styles the left footer text section */
+.footer-text{
+  padding-left: 100px;
+  padding-right: 40px;
+}
+
+/* This styles the right footer links section */
+.footer-links{
+  padding-left: 80px;
+}
+
+/* This styles footer icons */
+.footer-links .fa{
+  font-size: 1.3em;
+  margin-right: 10px;
+}
+
+/* This adds spacing between footer links */
+.footer-links p{
+  margin-bottom: 15px;
+}
+
+/* This CSS styles the blockquote with a soft modern layout */
+blockquote{
+    background-color: #f3efe4;
+    padding: 25px 30px;
+    margin: 30px 0;
+    border-radius: 0px 81px 21px 70px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.18);
+    line-height: 1.8;
+}
+
+/* This CSS styles the animal gallery photos */
+.animal-photo{
+    border-radius: 40px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+/* This CSS styles the photography message box */
+.photo-message{
+    background-color: #f3efe4;
+    padding: 25px;
+    border-radius: 0px 81px 21px 70px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.18);
+    line-height: 1.8;
+}
+
+/* This CSS enlarges and centers the paw icon */
+.paw-icon{
+    font-size: 5em;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}

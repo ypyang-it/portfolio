@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Playwrite+IN+Guides&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Playwrite+IN+Guides&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
+
+header{
+	text-align: center;
+  color: white;
+  padding: 5px 0;
+  background-image: url(images/generation-technology.jpg);
+  border-bottom: 2px solid black;
+}
+
+/* Website Links except the nav */
+a:link{
+	color: white;
+}
+
+a:visited{
+	color: #620EAB;
+}
+
+a:hover{
+	color: #b300b3;
+}
+
+a:active{
+	color: #102CC9;
+}
+
+nav{
+ 	text-align: center;
+  background: linear-gradient(90deg, rgba(16, 107, 199, 1) 0%, rgba(126, 149, 189, 1) 63%, rgba(145, 185, 199, 1) 100%);
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 6px 0;
+}
+
+.logo{
+  margin: 0 auto;
+  display: block;
+  border: 2px solid white;
+  outline: 2px solid #38BDF8;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+  display: inline;
+  padding: 0 8px;
+}
+
+nav a{
+  text-decoration: none;
+  padding: 6px 12px;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #38BDF8;
+  background-color: rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+}
+
+nav a:link{
+	color: white;
+}
+
+nav a:visited{
+	color: white;
+}
+
+nav a:hover{
+  background-color: #38BDF8;
+  color: white;
+}
+
+nav a:active{
+	color: #102CC9;
+}
+
+main{
+	max-width: 800px;
+	margin: 20px auto;
+	padding: 20px 40px;
+	text-align: left;
+}
+
+main h1{
+	font-size: 45px;
+}
+
+.container {
+	padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* This is the background box above the gallery preview */
+.gallery-message{
+  background: linear-gradient(90deg, rgba(16, 107, 199, 0.08) 0%, rgba(145, 185, 199, 0.12) 100%);
+  border-left: 6px solid #38BDF8;
+  padding: 18px 25px;
+  margin: 30px 0;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
+}
+
+footer{
+	color: white;
+	text-align: left;
+	background: #106bc7;
+	background: linear-gradient(90deg, rgba(16, 107, 199, 1) 0%, rgba(126, 149, 189, 1) 63%, rgba(145, 185, 199, 1) 100%);
+	border-top: 2px solid black;
+	margin-top: 40px;
+	padding: 20px;
+}
+
+footer .container-fluid{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+footer .text-center{
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 0;
+  width: 100%;
+  border: 1px solid #38BDF8;
+  background-color: rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+ }
+
+body{
+	font-family: "Roboto Condensed", sans-serif;
+	color: #1E293B;
+	margin: 0;
+	border-top: 8px solid black;
+  border-bottom: 8px solid black;
+  background-color: #f4f6f8;
+}
+
+h1{
+	font-family: "Jura", sans-serif;
+	color: #1155cc;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+	font-size: 4em;
+}
+
+.headshot{
+  float: left;
+  width: 420px;   
+  max-width: 45%;
+  height: auto;
+  margin: 10px 25px 15px 0;  /* top right bottom left */
+  border-radius: 10%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+  margin-top: 30px;
+  border-bottom: 2px solid #1155cc;
+  padding-bottom: 5px;
+}
+
+.home-hero{
+	background-image: url(images/generation-technology.jpg);
+	background-size: cover;
+	border-bottom: 2px solid black;
+}
+
+.home-hero h1{
+	font-family: 'Quantico', sans-serif;
+	color: whitesmoke;
+	font-size: 50px;
+	text-shadow: 4px 4px 4px black;
+	text-align: center;
+	padding: 40px;
+	margin: 0;
+}
+
+.game-controls{
+	text-align: center;
+	margin-top: 15px;
+}
+
+.myButton{
+	background: #1155cc;
+	color: white;
+	border: none;
+	padding: 12px 22px;
+	border-radius: 10px;
+	font-weight: bold;
+	margin: 8px;
+	box-shadow: 0 0 20px #38BDF8;
+  transition: 0.3s;
+}
+
+.resume {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  border: 1px solid #dddddd;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  background-image: url("images/paper.jpg");
+}
+
+.gallery .preview{
+  width: 100%;
+  height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+  width: 100px;
+  height: 75px;
+  margin: 3px 10px 10px 0;
+  margin-top: 20px;
+}
+
+.gallery .gallery-thumbnails img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.gallery .preview img#preview {
+  padding: 5px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto !important;
+  display: block !important;
+  border-radius: 10%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  background-color: white;
+}
+
+.gallery-img{
+  border-radius: 15px 50px 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.45);
+  transition: 0.3s;
+}
+
+.gallery-img:hover{
+  transform: scale(1.02);
+}
+
+/*This is the styling on images in the Portfolio page - Keep this to match the main page*/
+.portfolio-img{
+  border-radius: 10%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  transition: 0.3s;
+}
+
+.portfolio-img:hover{
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+
+.portfolio-item{
+  margin-bottom: 70px;
+}
+
+/* This gives space in between text-icon-links at the footer */
+.footer-text{
+    padding-left: 100px;
+}
+
+.footer-links{
+    padding-left: 80px;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}

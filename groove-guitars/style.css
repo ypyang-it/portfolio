@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&family=Playwrite+IN+Guides&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+	text-align: center;
+	background: #020024;
+	background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 26, 121, 1) 21%, rgba(121, 110, 9, 1) 60%);
+}
+
+.logo{
+	max-width: 375px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+/* Website Links except the nav */
+
+a:link{
+	color: #2E94E6;
+}
+
+a:visited{
+	color: #620EAB;
+}
+
+a:hover{
+	color: #b300b3;
+}
+
+a:active{
+	color: #102CC9;
+}
+
+nav{
+  text-align: center;
+  background: #020024;
+  background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 26, 121, 1) 21%, rgba(121, 110, 9, 1) 60%);
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  color: white;
+  font-weight: 	bold;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0;
+}
+
+nav li{
+  display: inline;
+  padding: 10px;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+nav a:link{
+	color: #2E94E6;
+}
+
+nav a:visited{
+	color: #4dd2ff;
+}
+
+nav a:hover{
+	color: #b300b3;
+}
+
+nav a:active{
+	color: #102CC9;
+}
+
+#home-hero{
+	background-image: url(images/guitars.jpg);
+	background-size: cover;
+	height: 350px;
+	
+}
+
+#home-hero h1{
+	margin: 0;
+	background: rgba(0, 0, 0, 0.8);
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+}
+
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+footer{
+	text-align: center;
+	background: #020024;
+	background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 26, 121, 1) 21%, rgba(121, 110, 9, 1) 60%);
+}
+
+body{
+	font-family: "Roboto Condensed", sans-serif;
+	color: #eaeaea;
+	margin: 0;
+	background-color: #0b0b1a;
+}
+
+h1{
+	font-family: "Jura", sans-serif;
+	color: gold;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.float-right{
+  float: right;
+  max-width: 40%;
+  height: auto;
+  margin-left: 30px;
+  border-radius: 14px;
+  box-shadow: 0 0 15px gold;
+}
+
+h2{
+	color: #f2d16b;
+	border-bottom: 2px solid #3366ff;
+	padding-bottom: 4px;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+
+ 								/*This is the table*/
+table{
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 2px solid black;
+}
+
+th{
+  background-color: royalblue;
+  color: white;
+}
+
+tr:nth-child(even){
+  background-color: darkgray;
+  color: white;
+}
+
+/*This is the form*/
+form{
+  border: 4px solid black;
+  background-color: #d3d3d3;
+  padding: 20px;
+  max-width: 420px;
+  color: black;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel]{
+  background-color: #eeeeee;
+  height: 16px;
+  border-color: rgb(97, 132, 199);
+  border-radius: 4px;
+}
+
+input[type=submit]{
+  background-color: royalblue;
+  color: white;
+  border-color: rgb(97, 132, 199);
+  border-radius: 4px;
+  display: block;
+}
+
+input, textarea{
+  margin-bottom: 1em;
+  display: block;
+}
+
+label{
+  float: left;
+  width: 8em;
+  padding-right: 1em;
+}
+
+textarea{
+  background-color: #eeeeee;
+  border-color: rgb(97, 132, 199);
+  border-radius: 4px;
+}
+
+.video-container{
+  overflow: hidden;
+  position: relative;
+  width:100%;
+}
+
+.video-container::after{
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+
+.video-container iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}

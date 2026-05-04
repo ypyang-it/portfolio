@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+	<meta name="description" content="This is an example of a meta description. This will often show up in search results so it is important to write a high quality description for each page of a website">
+
+	<title>Animal Photography::Home</title>
+
+	<!-- Below this is the CSS framework -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Below this is the Bootstrap Stylesheet-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<header>
+
+		<h1>Animal Photography</h1>
+
+	</header>
+
+	<nav>
+
+  		<ul>
+
+    		<li><a href="index.html">Home</a></li>
+    		<li><a href="about.html">About Us</a></li>
+    		<li><a href="contact.html">Contact Us</a></li>
+    		<li><a href="../portfolio.html">← Back to Portfolio</a></li>
+
+  		</ul>
+
+	</nav>
+
+	<main>
+
+		<!-- This is the start of the Bootstrap Columns -->
+		<div class="container-fluid">
+
+     		<div class="row">
+
+        		<div class="col-sm-12">
+
+        			<img class="hero-image img-fluid" src="images/eagle-eye.jpg" alt="Piercing eagle eye" height="400" width="1200">
+
+        		</div>
+
+        	</div>
+
+        	<br>
+
+        	<!-- Row 2 begins with icon and message -->
+			<div class="row">
+
+				<div class="col-sm-2">
+
+					<!-- This adds a class to the paw icon to customize its size -->
+					<i class="fa fa-paw paw-icon" aria-hidden="true"></i>
+
+				</div>
+
+				<div class="col-sm-10">
+
+					<!-- This adds a class so i can style the border-radius in CSS -->
+					<p class="photo-message">
+						The website features photographs of animals from Pixabay.com. The key to animal photography is patience. It can take a long time to get the right lighting and the best view of the animal. When photographing animals, you do not have a lot of control...you need to wait for them.
+					</p>
+
+				</div>
+
+			</div>
+
+			<br>
+
+			<!-- Row 3 - Photo Gallery -->
+			<div class="row">
+
+		    	<div class="col-sm-12">
+
+		    		<p class="gallery-intro">
+            		Every animal carries its own unique beauty, personality, and presence. Some may appear fierce, powerful, or untamed in the wild, yet through photography we are able to pause and appreciate the remarkable detail, emotion, and quiet elegance within each moment. This gallery was created to encourage viewers to slow down, carefully observe each photograph, and absorb the natural beauty these animals bring into our world. From piercing eyes and powerful stances to gentle expressions and vibrant colors, every image tells a story worth exploring.
+        			</p>
+
+        			<br>
+
+        			<hr>
+
+			        <div class="gallery">
+
+					    <div class="preview">
+					        <img id="preview" src="images/bison.jpg" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+					    </div>
+
+					    <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+
+					        <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/deer.jpg" alt="Standing deer" />
+					        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/fox.jpg" alt="Red fox"  />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/froggy.jpg" alt="Green frog" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/hedgehog.jpg" alt="Cute hedgehog" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/lizard.jpg" alt="Fancy lizard"  />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/otter.jpg" alt="Brown otter" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="images/bison.jpg" alt="Bison" />
+
+					    </div>
+					    
+					</div>
+
+		    	</div>
+
+			</div>
+			
+        </div>
+
+	</main>
+
+	<footer>
+
+	    <div class="container-fluid">
+
+	        <div class="row">
+
+	            <!-- LEFT FOOTER COLUMN -->
+	            <div class="col-sm-6 footer-text">
+
+	                <h5>Web Design Exercise</h5>
+
+	                <p>
+	                    Animal Photography is a responsive website project focused on image galleries, Bootstrap layouts, and visual storytelling. The photographs displayed throughout this website are royalty-free images from Pixabay.com and were used to demonstrate HTML, CSS, JavaScript, and Bootstrap techniques learned in Web Fundamentals.
+	                </p>
+
+	            </div>
+
+	            <!-- RIGHT FOOTER COLUMN -->
+	            <div class="col-sm-6 footer-links">
+
+	                <h5>Connect with Me!</h5>
+
+	                <p>
+
+	                    <a href="https://www.linkedin.com/in/yupeng-yang-198344101/" target="_blank">
+	                        <i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
+	                    </a>
+
+	                </p>
+
+	                <p>
+
+	                    <a href="https://github.com/ypyang-it/ypyang-it" target="_blank">
+	                        <i class="fa fa-github" aria-hidden="true"></i> GitHub
+	                    </a>
+
+	                </p>
+
+	                <p>
+
+	                    <a href="mailto:yupengayang@gmail.com">
+	                        <i class="fa fa-envelope"></i> Email Me
+	                    </a>
+
+	                </p>
+
+	            </div>
+
+	        </div>
+
+	        <div class="text-center">
+
+	            <small>&copy; 2026 Yupeng Yang. All rights reserved.</small>
+
+	        </div>
+
+	    </div>
+
+	</footer>
+
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
